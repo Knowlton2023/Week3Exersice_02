@@ -9,8 +9,11 @@ public class Runnable {
 		System.out.println("Type a number between 50 and 300");
 		String number = scanner.nextLine();
 		
+		NumberService newNumber = new NumberService();
+		newNumber.setNumber(number);
+		
+		System.out.println("The number you typed was: " + newNumber.getNumber());
 	
 		scanner.close();
 	}
-
 }
