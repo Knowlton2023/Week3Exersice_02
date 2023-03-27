@@ -1,8 +1,6 @@
 package com.coderscampus.objects;
 
 public class NumberService {
-
-
 	String number;
 	
 	Integer getNumber() {
@@ -17,8 +15,4 @@ public class NumberService {
 	void setNumber(String number) {
 		this.number = number;
 	}
-	
-
-
-
 }
